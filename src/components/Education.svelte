@@ -10,7 +10,7 @@
 			<h1 class="font-bold text-center">Educations</h1>
 			<ol class="relative border-l border-gray-200 dark:border-gray-700">
 				{#each dataStatic.about.educations as item}
-					<li class="mb-10 ml-4">
+					<li class="mb-5 last:mb-0 ml-4">
 						<div
 							class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-black dark:bg-black"
 						/>
@@ -18,7 +18,7 @@
 							{item.graduation}
 						</time>
 						<h3 class="text-md">{item.name}</h3>
-						<p class="mb-4 text-base font-normal">{item.major}</p>
+						<p class="text-base font-normal">{item.major}</p>
 					</li>
 				{/each}
 			</ol>

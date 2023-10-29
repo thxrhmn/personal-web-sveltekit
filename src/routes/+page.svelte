@@ -7,7 +7,7 @@
 </script>
 
 <div class="font-jetbrains-mono flex justify-center mx-[20%]">
-	<div class="w-[500px] mt-10 flex flex-col gap-8">
+	<div class="w-[500px] mt-10 flex flex-col gap-8 mb-10">
 		<div class="flex justify-center">
 			<img class="w-[100px] rounded-full" src="/img.jpg" alt="avatarku" />
 		</div>

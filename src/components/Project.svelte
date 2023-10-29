@@ -4,7 +4,7 @@
 
 <ol class="relative border-l border-gray-200 dark:border-gray-700">
 	{#each dataStatic.projects as item}
-		<li class="mb-10 ml-4">
+		<li class="mb-10 last:mb-0 ml-4">
 			<div
 				class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-black dark:bg-black"
 			/>
