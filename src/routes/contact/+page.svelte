@@ -6,7 +6,7 @@
 <div class="font-jetbrains-mono flex justify-center mx-[20%]">
 	<div class="w-[500px] mt-10 flex flex-col gap-8">
         <Nav />
-        <h1 class="text-lg font-semibold text-center">Contact</h1>
+        <h1 class="text-lg font-semibold text-center">Contacts</h1>
         <ul>
             <li>{dataStatic.contacts.email}</li>
             <li><a href={dataStatic.contacts.linkedin}>@rahman-muhaemin</a></li>
