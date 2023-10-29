@@ -1,0 +1,18 @@
+<script>
+	import Nav from "../../components/Nav.svelte";
+    import dataStatic from "../dataStatic";
+
+</script>
+<div class="font-jetbrains-mono flex justify-center mx-[20%]">
+	<div class="w-[500px] mt-10 flex flex-col gap-8">
+        <Nav />
+        <h1 class="text-lg font-semibold text-center">Contact</h1>
+        <ul>
+            <li>{dataStatic.contacts.email}</li>
+            <li>{dataStatic.contacts.github}</li>
+            <li>{dataStatic.contacts.linkedin}</li>
+            <li>{dataStatic.contacts.telegram}</li>
+            <li>{dataStatic.contacts.website}</li>
+        </ul>
+    </div>
+</div>
