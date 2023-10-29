@@ -9,8 +9,8 @@
         <h1 class="text-lg font-semibold text-center">Contact</h1>
         <ul>
             <li>{dataStatic.contacts.email}</li>
+            <li><a href={dataStatic.contacts.linkedin}>@rahman-muhaemin</a></li>
             <li>{dataStatic.contacts.github}</li>
-            <li>{dataStatic.contacts.linkedin}</li>
             <li>{dataStatic.contacts.telegram}</li>
             <li>{dataStatic.contacts.website}</li>
         </ul>

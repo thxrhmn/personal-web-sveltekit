@@ -51,7 +51,7 @@ const dataStatic = {
 			linkProd: 'https://holyways.thxrhmn.me',
 			stacks: [{ name: 'React' }, { name: 'Tailwind' }, { name: 'Golang' }, { name: 'PostgreSQL' }],
 			features: [{ name: 'Cloudinary' }, { name: 'Midtrans' }],
-			deployments: [{ name: 'Vercel' }, { name: 'Railwa' }]
+			deployments: [{ name: 'Vercel' }, { name: 'Railway' }]
 		}
 	],
 	programmingStack: [
@@ -65,10 +65,14 @@ const dataStatic = {
 		'Golang',
 		'React',
 		'React Native',
+		'Next',
+		'Sveltekit',
 		'MySQL',
 		'PostgreSQL',
 		'MongoDB',
 		'Git',
+		'Nginx',
+		'Docker',
 		'Linux'
 	]
 };
