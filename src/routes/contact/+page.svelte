@@ -1,6 +1,6 @@
 <script>
 	import Nav from "../../components/Nav.svelte";
-    import dataStatic from "../dataStatic";
+    import dataStatic from "../../data/dataStatic";
 
 </script>
 <div class="font-jetbrains-mono flex justify-center mx-[20%]">

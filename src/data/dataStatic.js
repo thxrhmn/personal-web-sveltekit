@@ -74,6 +74,20 @@ const dataStatic = {
 		'Nginx',
 		'Docker',
 		'Linux'
+	],
+	tools: [
+		{
+			"name": "Bcrypt Validator",
+			"link": "/bcrypt-validator"
+		},
+		{
+			"name": "Text Count",
+			"link": "/text-count"
+		},
+		{
+			"name": "Merge Text",
+			"link": "/merge-text"
+		},
 	]
 };
 

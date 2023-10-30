@@ -1,12 +1,12 @@
 <script>
-	import dataStatic from '../routes/dataStatic';
+	import dataStatic from '../data/dataStatic';
 </script>
 
-<ol class="relative border-l border-gray-200 dark:border-gray-700">
+<ol class="relative border-l border-black dark:border-gray-700">
 	{#each dataStatic.projects as item}
 		<li class="mb-10 last:mb-0 ml-4">
 			<div
-				class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-black dark:bg-black"
+				class="absolute w-3 h-3 bg-black rounded-full mt-1.5 -left-1.5 border border-white dark:border-black dark:bg-black"
 			/>
 			<time class="mb-1 text-sm font-normal leading-none italic">
 				{item.process}
