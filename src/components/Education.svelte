@@ -3,7 +3,7 @@
 	import Nav from './Nav.svelte';
 </script>
 
-<div class="font-jetbrains-mono flex justify-center mx-[20%]">
+<div class="font-jetbrains-mono flex justify-center mx-[5%]">
 	<div class="w-[500px] mt-10 flex flex-col gap-8">
         <Nav />
 		<div class="flex flex-col gap-5">
